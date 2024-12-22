@@ -32,3 +32,13 @@ h1 {
 .recipe:hover {
     transform: scale(1.05); /* Scale up on hover */
 }
+
+.recipe a {
+    text-decoration: none; /* Remove underline */
+    color: #d35400; /* Orange color for links */
+}
+
+.recipe a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #c0392b; /* Darker shade on hover */
+}
